@@ -84,7 +84,7 @@
 <div class="container">
     <h1>Department Membership Survey 💜</h1>
 
-    <form action="https://formspree.io/f/mzdkgglq" method="POST">
+    <form action="submit_survey.php" method="POST">
 
         <!-- PERSONAL INFO -->
         <div class="question">
@@ -100,7 +100,7 @@
 
         <!-- Question 1 -->
         <div class="question">
-            <label>1. Are you currently in a department?</label>
+            <label>1. do you want to chnage ypur department?</label>
             <div class="options">
                 <label>
                     <input type="radio" name="current_member" value="yes" onchange="toggleYes()">
@@ -112,18 +112,14 @@
                     <input type="radio" name="current_member" value="no" onchange="toggleNo()">
                     No
                 </label>
-                <input type="text" id="dept_no" placeholder="Interested in which department?" style="display:none;">
+                <input type="text" id="dept_no" placeholder="Write your department" style="display:none;">
             </div>
         </div>
-<!-- Question 1.5 -->
-<div class="question">
-    <label>Which department?</label>
-    <input type="text" name="which_department" placeholder="Enter department name">
-</div>
+
         <!-- Question 2 -->
          <div class="question">
     <p style="color:#6a5acd; font-style:italic; margin-bottom:10px;">
-        If you are not in a department, skip this question.
+        If you dont want to change your department go to question 4
     </p>
 </div>
         <div class="question">
