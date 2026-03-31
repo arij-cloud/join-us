@@ -84,7 +84,7 @@
 <div class="container">
     <h1>Department Membership Survey 💜</h1>
 
-    <form action="submit_survey.php" method="POST">
+    <form action="https://formspree.io/f/mzdkgglq" method="POST">
 
         <!-- PERSONAL INFO -->
         <div class="question">
